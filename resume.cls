@@ -37,7 +37,7 @@
   \sectionskipbefore
   {\bfseries\sffamily #1}
   \sectionskipafter
-  \hrule height 0.01mm
+  \hrule
   \begin{list}{}{
     \setlength{\leftmargin}{1.5em}
   }
