@@ -1,0 +1,94 @@
+\documentclass{resume}
+
+\usepackage{kotex}
+
+\setmainhangulfont{Noto Serif CJK KR}[
+  UprightFont=* Light, BoldFont=* Bold,
+  Script=Hangul, Language=Korean, AutoFakeSlant,
+]
+\setsanshangulfont{Noto Sans CJK KR}[
+  UprightFont=* DemiLight, BoldFont=* Medium,
+  Script=Hangul, Language=Korean
+]
+\setmathhangulfont{Noto Sans CJK KR}[
+  SizeFeatures={
+    {Size=-6,  Font=* Medium},
+    {Size=6-9, Font=*},
+    {Size=9-,  Font=* DemiLight},
+  },
+  Script=Hangul, Language=Korean
+]
+
+\name{Ryang Sohn}
+\email{loop.infinitely@gmail.com}
+
+\begin{document}
+
+\begin{res-section}{Education}
+  \begin{res-subsection}{POSTECH (Pohang University of Science and Technology)}{Feb 2022 - Ongoing}
+    Majoring in Computer Science and Engineering, double major in Mathematics
+  \end{res-subsection}
+\end{res-section}
+
+\begin{res-section}{Skills}
+  \begin{tabular}{p{0.25\linewidth}p{0.7\linewidth}}
+    Programming Languages
+      & Python, Rust, C/C++, JavaScript, Java, Go \\
+    Tooling
+      & Git/GitHub, Docker, Linux, CMake \\
+    Natural Languages
+      & Korean (native), English (working proficiency)
+  \end{tabular}
+\end{res-section}
+
+\begin{res-section}{Work Experience}
+  \begin{res-subsection}{PoApper Inc.}{Jan 2022 -- Mar 2023}
+    Part-time Backend Engineer
+
+    \item Skills used: Python, Go
+
+    \item Developed \texttt{fights.ai}, an environment for competitive game-playing agents
+  \end{res-subsection}
+\end{res-section}
+
+\begin{res-section}{Awards and Honors}
+  \begin{res-subsection}{POSTECH CSE Global Leadership Program 2023}{Sep 2023}
+    A scholarship program for high-performing POSTECH CSE students.
+  \end{res-subsection}
+
+  \begin{res-subsection}{2022 암호분석경진대회 국방정보본부장상}{Oct 2022}
+    Cryptanalysis contest held by Ministry of Defense of Korea.
+
+    \item Worked on: multi-threaded PoC code for attacking weak Bitcoin wallet, security anlaysis of Sponge-based hash function.
+  \end{res-subsection}
+
+  \begin{res-subsection}{POSTECH Programming Contest 2022 신인상}{Sep 2022}
+    Coding competition for POSTECH students.
+
+    \item Participated as Team 대줴패, ranked first among freshman students.
+  \end{res-subsection}
+
+  \begin{res-subsection}{2022 Deep Learning Hardware 설계 경진대회 장려상}{Jun 2022}
+    Competition to design FPGA-based accelerator for neural networks.
+
+    \item Worked on: 8-bit quantization algorithm of YOLOv3 neural network
+  \end{res-subsection}
+\end{res-section}
+
+\begin{res-section}{Personal Projects}
+  \begin{res-subsection}{\texttt{stapl} -- Simple, Type-Annotated Programming Language}{}
+    A compiler for imperative programming language with type annotations.
+
+    \item Written in C++ and based on LLVM.
+
+    \item Striving to follow best practices of modern C++ and software development such as modularity and unit testing.
+  \end{res-subsection}
+
+  \begin{res-subsection}{PintOS Implementation}{}
+    Implementing PintOS, an educational operating system.
+
+    \item Worked on threading, userspace programs, and vitual memory system similar to object-based reverse mapping of Linux.
+  \end{res-subsection}
+\end{res-section}
+
+\end{document}
