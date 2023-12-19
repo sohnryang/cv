@@ -5,6 +5,7 @@
 \usepackage[left=1.5cm,top=1.5cm,right=1.5cm,bottom=1.5cm]{geometry}
 \usepackage[parfill]{parskip}
 \usepackage{lmodern}
+\pagestyle{empty}
 
 \def \name#1{\def\@name{#1}}
 \def \@name {}
