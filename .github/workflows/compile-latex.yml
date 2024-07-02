@@ -23,3 +23,8 @@ jobs:
 
       - name: Compile Document
         run: ./tectonic main.tex
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: cv.pdf
+          path: ./main.pdf
