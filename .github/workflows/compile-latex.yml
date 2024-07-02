@@ -13,6 +13,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Install Fonts
+        run: |
+          sudo apt-get update
+          sudo apt-get install fonts-noto-cjk fonts-noto-cjk-extra
+
       - name: Install Tectonic
         run: curl --proto '=https' --tlsv1.2 -fsSL https://drop-sh.fullyjustified.net | sh
 
